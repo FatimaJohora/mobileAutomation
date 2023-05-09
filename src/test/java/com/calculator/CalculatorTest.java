@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 public class CalculatorTest extends BaseTest {
 
     @Test
-    public void addShouldSucceed() {
+    public void addShouldSucceed()  {
         driver.findElement(By.id("digit_9"));
         driver.findElement(By.id("op_add"));
         driver.findElement(By.id("digit_7"));
